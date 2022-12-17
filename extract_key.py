@@ -4,13 +4,25 @@
 from rake_nltk import Rake
 rake_nltk_var = Rake()
 
-text = """ Keywords play an important role when reading a long text to understand the subject and context of the text. Search engines also analyze an article’s keywords before indexing it. In this article, I will walk you through how to extract keywords using Python.
+text = '''Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.[32]
 
-Well, we can also train a machine learning model that will extract keywords, but here I am just going to walk you through how to use a Python library for this task so that even beginners can understand how extracting keywords work before training a machine learning model."""
+Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.[33][34]
+
+Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.[35] Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020'''
 
 rake_nltk_var.extract_keywords_from_text(text)
 keyword_extracted = rake_nltk_var.get_ranked_phrases()
 print(keyword_extracted)
+
+# # importing the module
+# import wikipedia
+
+# # finding result for the search
+# # sentences = 2 refers to numbers of line
+# result = wikipedia.summary("India", sentences = 2)
+
+# # printing the result
+# print(result)
 
 
 
