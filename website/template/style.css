@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: darkslategray;
+}
+
+.drag-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+[class^="panel"] {
+  padding: 60px 24px;
+  background-color: whitesmoke;
+}
+
+.panel-one {
+  width: 40%;
+}
+
+.panel-two {
+  flex: 1;
+  width: 60%;
+}
+
+.dragbar {
+  padding: 6px;
+  cursor: col-resize;
+  background-color: silver;
+}
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: darkslategray;
+}
+
+.drag-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+[class^="panel"] {
+  padding: 60px 24px;
+  background-color: whitesmoke;
+}
+
+.panel-one {
+  width: 40%;
+}
+
+.panel-two {
+  flex: 1;
+  width: 60%;
+}
+
+.dragbar {
+  padding: 6px;
+  cursor: col-resize;
+  background-color: silver;
+}
