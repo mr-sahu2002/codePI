@@ -9,11 +9,13 @@
 </head>
 
 <body>
-    <div class="textarea">
-        <textarea name="" id="" cols="50" rows="20" placeholder="enter your text"></textarea>
-        <textarea name="" id="" cols="50" rows="20"></textarea>
-        <input type="submit" name="run" id="">
-    </div>
+    <form action="{{ url_for(" gfg")}}" method="post">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="fname" placeholder="firstname">
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lname" placeholder="lastname">
+        <button type="submit">Login</button>
+    </form>
 </body>
 
 </html>

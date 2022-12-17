@@ -12,7 +12,16 @@ Guido van Rossum began working on Python in the late 1980s as a successor to the
 
 rake_nltk_var.extract_keywords_from_text(text)
 keyword_extracted = rake_nltk_var.get_ranked_phrases()
-print(keyword_extracted)
+# print(keyword_extracted)
+for i in keyword_extracted:
+    print(f">{i}")
+
+
+
+
+
+
+
 
 # # importing the module
 # import wikipedia

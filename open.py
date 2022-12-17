@@ -1,21 +1,53 @@
-# import openai
-# from api_secrets import API_KEY
-
-# openai.api_key="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"
-
-# prompt= "say this is a test"
-
-# response=openai.Completion.create(engine="text-danvinci-004",prompt=prompt,max_tokens=6)
-# print(response)
 import os
 import openai
+import json
 from api_secrets import API_KEY
 
 # Load your API key from an environment variable or secret management service
 openai.api_key =API_KEY
 
-response = openai.Completion.create(model="text-davinci-003", prompt="Say this is a test", temperature=0, max_tokens=7)
-print(response)
+text=input("enter the text:")
+response = openai.Completion.create(
+  model="text-davinci-003",
+  prompt=f"meaning of:\n\n{text}",
+  temperature=0.7,
+  max_tokens=64,
+  top_p=1.0,
+  frequency_penalty=0.0,
+  presence_penalty=0.0
+)
+answer=response.choices[0].text.strip()
+print(answer)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# response = openai.Completion.create(
+#   model="text-davinci-003",
+#   prompt="Convert movie titles into emoji.\n\nBack to the Future: 👨👴🚗🕒 \nBatman: 🤵🦇 \nTransformers: 🚗🤖 \nStar Wars:",
+#   temperature=0.8,
+#   max_tokens=60,
+#   top_p=1.0,
+#   frequency_penalty=0.0,
+#   presence_penalty=0.0,
+#   stop=["\n"]
+# )
+# print(response)
+
+
+
+
 
 
 # openai.api_key =API_KEY
