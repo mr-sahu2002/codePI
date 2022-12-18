@@ -20,7 +20,7 @@ use your openAI API key for getting all the functionality of our tool!
 
 # Flowchart
 
-![alt text](https://github.com/mr-sahu2002/CODEPI/blob/main/flowchart.jpg?raw=true)
+![alt text](https://github.com/mr-sahu2002/codePI/blob/main/flowchart.png)
 
 # about rack lib
 
