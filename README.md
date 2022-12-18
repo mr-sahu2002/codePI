@@ -16,6 +16,8 @@ Werkzeug It is a WSGI toolkit, which implements requests, response objects, and 
 
 jinja2 jinja2 is a popular templating engine for Python. A web templating system combines a template with a certain data source to render dynamic web pages.
 
-# gpt-3
+# What is GPT-3?
 
-streamlit
+GPT-3, or the third generation Generative Pre-trained Transformer, is a neural network machine learning model trained using internet data to generate any type of text. Developed by OpenAI, it requires a small amount of input text to generate large volumes of relevant and sophisticated machine-generated text.
+
+GPT-3's deep learning neural network is a model with over 175 billion machine learning parameters. To put things into scale, the largest trained language model before GPT-3 was Microsoft's Turing NLG model, which had 10 billion parameters. As of early 2021, GPT-3 is the largest neural network ever produced. As a result, GPT-3 is better than any prior model for producing text that is convincing enough to seem like a human could have written it.
