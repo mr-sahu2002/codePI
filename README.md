@@ -20,7 +20,7 @@ use your openAI API key for getting all the functionality of our tool!
 
 # Flowchart
 
-![alt text](https://www.canva.com/design/DAFVEN8SZ5k/yPWAdofupS8jTbFEktbecA/view?utm_content=DAFVEN8SZ5k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+![alt text](https://github.com/mr-sahu2002/CODEPI/blob/main/flowchart.jpg?raw=true)
 
 # about rack lib
 
