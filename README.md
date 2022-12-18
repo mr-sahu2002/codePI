@@ -2,6 +2,10 @@
 
 JIT HACK (Hackathon)
 
+# Web Documentaion
+
+[codePidoc]](https://kate443534.my.canva.site/smart-read)
+
 # LIBRARIES USED
 
 > openai
