@@ -2,12 +2,25 @@
 
 JIT HACK (Hackathon)
 
+# LIBRARIES USED
+
+> openai
+> rake
+
+# API
+
+> openai (gpt-3)
+
 # INSTALLATION
 
 pip install requirements.txt
 python main.py
 
 use your openAI API key for getting all the functionality of our tool!
+
+# Flowchart
+
+![flowchart](https://www.canva.com/design/DAFVEN8SZ5k/yPWAdofupS8jTbFEktbecA/view?utm_content=DAFVEN8SZ5k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 # about rack lib
 

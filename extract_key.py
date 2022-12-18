@@ -5,7 +5,9 @@ from rake_nltk import Rake
 rake_nltk_var = Rake()
 
 
-text = '''python is a object oriented language use to develop web application, mobile apps & machine learning projects'''
+text = '''
+Once upon a time ther was a girl who fell in love with a boy, but the boy did not love her back.this made the girl verysad, so started dating another boy. He was very handsome.
+'''
 
 #extracting the keyword from the content or text
 rake_nltk_var.extract_keywords_from_text(text)
