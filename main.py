@@ -1,3 +1,4 @@
+#import all the required library
 import os
 import openai
 from api_secrets import API_KEY
@@ -9,6 +10,7 @@ openai.api_key =API_KEY
 #array of keywords
 keyword=keyword_extracted
 
+# find the meaning for each key word
 for i in keyword:
     #give a response to the user in json format
     response = openai.Completion.create(
@@ -23,10 +25,12 @@ for i in keyword:
 
     # extract the text from the json file
     answer=response.choices[0].text.strip()
-    print(answer)
+    print(f"{i} : {answer}")
     print("-------------------------------------------------------------------------------------")
 
 print("=====================================================================================")
+
+#text or paragraph summary
 print("summary:")
 summary = openai.Completion.create(
     model="text-davinci-003",

@@ -2,6 +2,13 @@
 
 JIT HACK (Hackathon)
 
+# INSTALLATION
+
+pip install requirements.txt
+python main.py
+
+use your openAI API key for getting all the functionality of our tool!
+
 # about rack lib
 
 RAKE stands for Rapid Automatic Keyword Extraction.It is only built to extract keywords by using the NLTK library in Python
