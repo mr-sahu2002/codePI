@@ -12,6 +12,7 @@ keyword_extracted = rake_nltk_var.get_ranked_phrases()
 for i in keyword_extracted:
     print(f">{i}")
 
+print("--------------------------------------------------------------------------")
 
 
 
